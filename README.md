@@ -6,7 +6,7 @@ Chung, M.K., Hanson, J.L., Lee, H., Adluru, N., Alexander1, A.L., Davidson, A.L.
 
 Run script SCRIPT-jacobian.m to import data and visualize the network data.
 
-![alt text](https://github.com/laplcebeltrami/barcodes/blob/main/jackknife_bar.jpg?raw=true)
+![alt text](https://github.com/laplcebeltrami/barcodes/jackknife_bar.jpg?raw=true)
 
 
 (C) 2022 Moo K. Chung
