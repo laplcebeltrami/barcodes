@@ -10,4 +10,4 @@ Run script SCRIPT-jacobian.m to import data and visualize the network data.
 
 
 (C) 2022 Moo K. Chung
-University of Wisconsin-Madison
+University of Wisconsin-Madison 
