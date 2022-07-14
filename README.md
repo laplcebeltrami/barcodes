@@ -14,7 +14,7 @@ The quantification and infernce of the above plot is done in
 
 Songdechakraiwut, T. Chung, M.K. 2022 Topological learning for brain networks, arXiv: 2012.00675 Accepted in Annals of Applied Statistics:
 https://arxiv.org/pdf/2012.00675
-Use the ratio statitic code in conjunction with the transposition test is given in
+The ratio statitic code in conjunction with the transposition test is given in
 https://pages.stat.wisc.edu/~mchung/dynamicTDA
 
 (C) 2022 Moo K. Chung
