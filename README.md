@@ -1,4 +1,6 @@
-## We distribute the brain structural covariate network data for maltreated children published in
+## Brain structural covariate network data for maltreated children
+
+The datset is published in
 
 Chung, M.K., Hanson, J.L., Ye, J., Davidson, R.J. Pollak, S.D. 2015 Persistent homology in sparse regression and its application to brain morphometry. IEEE Transactions on Medical Imaging, 34:1928-1939, https://pages.stat.wisc.edu/~mchung/papers/chung.2015.TMI.pdf
 
