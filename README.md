@@ -11,7 +11,7 @@ https://pages.stat.wisc.edu/~mchung/papers/chung.2019.NN
  
 2) The code does uniform subsampling to reduce the size of networks. The data reduction technique like diffusion map should not be used. It may be difficult to trace back and identify the regions of brain that might be responsible for topological differences. The results need to be biologically interpretable forward and backward.
  
-3) The between-group and within-group showing the group differnce is visualized as shown below.
+3) The between-group and within-group ditance is visualized as shown below.
 
 ![alt text](https://github.com/laplcebeltrami/barcodes/blob/main/jackknifebar.jpg?raw=true)
 
