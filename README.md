@@ -9,7 +9,7 @@ Chung, M.K., Hanson, J.L., Lee, H., Adluru, N., Alexander1, A.L., Davidson, A.L.
 1) Run script SCRIPT-jacobian.m to import data and visualize the network data. It starts with the correlation matrices. Correlation is a similarity measure so similar objects have bigger correlations. While topology is usually built on top of distances such that larger distance objects are less similar. So we converted the correlation to distance as dist = 1- correlation. Note this is not metric. To make it metric, we need to use sqrt(1-correlation). The issue is explained in page 677 of
 https://pages.stat.wisc.edu/~mchung/papers/chung.2019.NN
  
-2) The code do uniform subsampling to reduce the size of networks. The data reduction technique like diffusion map should not be used. It may be difficult to trace back and identify the regions of brain that might be responsible for topological differences. The results need to be biologically interpretable forward and backward.
+2) The code does uniform subsampling to reduce the size of networks. The data reduction technique like diffusion map should not be used. It may be difficult to trace back and identify the regions of brain that might be responsible for topological differences. The results need to be biologically interpretable forward and backward.
  
 3) The between-group and within-group showing the group differnce is visualized as shown below.
 
