@@ -6,7 +6,7 @@ Chung, M.K., Hanson, J.L., Ye, J., Davidson, R.J. Pollak, S.D. 2015 Persistent h
 
 Chung, M.K., Hanson, J.L., Lee, H., Adluru, N., Alexander1, A.L., Davidson, A.L., Pollak, S.D. 2013. Persistent homological sparse network approach to detecting white matter abnormality in maltreated children: MRI and DTI multimodal study, MICCAI: 8149:300-307, https://pages.stat.wisc.edu/~mchung/papers/chung.2013.MICCAI.pdf
 
-### (1) Run script SCRIPT-jacobian.m 
+### 1) Run script SCRIPT-jacobian.m 
 to import data and visualize the network data. It starts with the correlation matrices. Correlation is a similarity measure so similar objects have bigger correlations. While topology is usually built on top of distances such that larger distance objects are less similar. So we converted the correlation to distance as
 
 dist = 1- correlation
@@ -15,10 +15,12 @@ Note this is not metric. To make it metric, we need to use sqrt(1-correlation). 
 https://pages.stat.wisc.edu/~mchung/papers/chung.2019.NN
  
 
-(2) The code do uniform subsampling to reduce the size of networks. The data reduction technique like diffusion map should not be used. It may be difficult to trace back and identify the regions of brain that might be responsible for topological differences. The results need to be biologically interpretable forward and backward.
+### 2) The code do uniform subsampling 
+to reduce the size of networks. The data reduction technique like diffusion map should not be used. It may be difficult to trace back and identify the regions of brain that might be responsible for topological differences. The results need to be biologically interpretable forward and backward.
  
  
-(3) Eventually you will be able to compue the netork distances between groups and within groups as shown below.
+### 3) The between-group and within-group 
+showing the group differnce is visualized as shown below.
 
 ![alt text](https://github.com/laplcebeltrami/barcodes/blob/main/jackknifebar.jpg?raw=true)
 
