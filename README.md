@@ -6,7 +6,8 @@ Chung, M.K., Hanson, J.L., Ye, J., Davidson, R.J. Pollak, S.D. 2015 Persistent h
 
 Chung, M.K., Hanson, J.L., Lee, H., Adluru, N., Alexander1, A.L., Davidson, A.L., Pollak, S.D. 2013. Persistent homological sparse network approach to detecting white matter abnormality in maltreated children: MRI and DTI multimodal study, MICCAI: 8149:300-307, https://pages.stat.wisc.edu/~mchung/papers/chung.2013.MICCAI.pdf
 
-(1) Run script SCRIPT-jacobian.m to import data and visualize the network data. It starts with the correlation matrices. Correlation is a similarity measure so similar objects have bigger correlations. While topology is usually built on top of distances such that larger distance objects are less similar. So we converted the correlation to distance as
+### (1) Run script SCRIPT-jacobian.m 
+to import data and visualize the network data. It starts with the correlation matrices. Correlation is a similarity measure so similar objects have bigger correlations. While topology is usually built on top of distances such that larger distance objects are less similar. So we converted the correlation to distance as
 
 dist = 1- correlation
 
